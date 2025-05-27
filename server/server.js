@@ -12,11 +12,11 @@ const app = express()
 await connectDB()
 
 //Initialize Middlewares
+// ✅ Handle Clerk webhook raw body separately
 app.use('/api/user/webhooks', bodyParser.raw({ type: 'application/json' }))
 app.use(express.json())
 app.use(cors())
 
-// ✅ Handle Clerk webhook raw body separately
 
 //API routes
 app.get('/',(req,res)=>{
