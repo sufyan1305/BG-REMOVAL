@@ -16,4 +16,4 @@ A SaaS platform that removes image backgrounds using AI. Built with the MERN sta
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/ai-bg-removal.git
+   git clone https://github.com/sufyan1305/BG-REMOVAL.git
